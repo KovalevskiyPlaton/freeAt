@@ -1,1 +1,3 @@
-dist
+.idea
+envir_remem.yml
+EMPTY_(requirements).txt
