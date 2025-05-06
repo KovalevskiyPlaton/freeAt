@@ -1,3 +1,5 @@
+
 .idea
+__pycache__
 envir_remem.yml
-EMPTY_(requirements).txt
+EMPTY_\(requirements\).txt
