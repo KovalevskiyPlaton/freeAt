@@ -1,6 +1,7 @@
 
 .idea
 __pycache__
+.pytest_cache
 envir_remem.yml
 EMPTY_requirements.txt
 
