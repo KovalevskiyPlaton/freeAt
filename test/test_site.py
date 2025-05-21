@@ -36,19 +36,19 @@ def test_two_monitor(browser):
     #assert len(monitors)==2
 
 #Проект с автотестами => нужны знания по ООП
-'''
+
 def test_one_input(browser):
     simple_input = Inputs(browser)
-    simple_input.open_input()
-    simple_input.test_send_keys()
-    time.sleep(7)
-'''
-'''
+    simple_input.open_input('https://automationexercise.com/products')
+    simple_input.test_send_keys(browser)
+
+
+
 def test_copy_paste(browser):
     copyPaste_input=Inputs(browser)
     copyPaste_input.open_input('https://automationexercise.com/products')
     copyPaste_input.test_copy_paste(browser, 'Здравствуйте Александр!!')
-'''
+
 
 def test_input_mask(browser):
     input_mask = Inputs(browser)
